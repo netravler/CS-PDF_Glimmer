@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="PDF_Glimmer.exe" version="1.0.0.0" publicKeyToken="a52eab041b935488" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PDF_Glimmer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="PDF_Glimmer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="bcmail-jdk14-132.dll" size="151552">
+      <assemblyIdentity name="bcmail-jdk14-132" version="0.0.0.0" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>gcmjRAPFvHYe4uNL2QHgfcL8+5k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="bcprov-jdk14-132.dll" size="1187840">
+      <assemblyIdentity name="bcprov-jdk14-132" version="0.0.0.0" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>LpwqWX6qR9vqyDc1H2EHAlZo0jc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FontBox-0.1.0-dev.dll" size="86016">
+      <assemblyIdentity name="FontBox-0.1.0-dev" version="0.0.0.0" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>QnL6OkWvr5HstNa+wSIj5estjg4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.GNU.Classpath.dll" size="9568256">
+      <assemblyIdentity name="IKVM.GNU.Classpath" version="0.30.0.0" publicKeyToken="13235D27FCBFFF58" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>AqMgpyQS2qkXHaipz1SFQFepd8E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.Runtime.dll" size="344064">
+      <assemblyIdentity name="IKVM.Runtime" version="0.30.0.0" publicKeyToken="13235D27FCBFFF58" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>o9lDrByyAnFFHthi12JZhmAdG+A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="lucene-core-2.0.0.dll" size="380928">
+      <assemblyIdentity name="lucene-core-2.0.0" version="0.0.0.0" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>CPsQH7lMuoxai4erudkNqK10/Qg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="lucene-demos-2.0.0.dll" size="81920">
+      <assemblyIdentity name="lucene-demos-2.0.0" version="0.0.0.0" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>omJsuJC3WDdZQ5xeVNFC88klHk4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PDF_Glimmer.exe" size="9728">
+      <assemblyIdentity name="PDF_Glimmer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>l+06ED3t1ufhf/3hBlRRKtYiXps=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PDFBox-0.7.3.dll" size="4653056">
+      <assemblyIdentity name="PDFBox-0.7.3" version="0.0.0.0" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>91wc2yidowRdoryFQnONfadkNNg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=MONETT\pheintz" issuerKeyHash="49d30e186f623b9df19a5ffe0bae8f28a98b3d23" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+GnWGssNbq0CCaRFitNe6TunAig=</DigestValue></Reference></SignedInfo><SignatureValue>nTph46aBOLsawq+x70/yb/RFeW+T3vQCRB6n0sDAciFNyOzfzwyc6J/0I1XuS2xkra4lmAzE9lGiw+LPkoHiBB56BKTeBEzea7nQJyTC552wEmKnBhtbjdiTEkUMoHnsHcmeRi135Vlew98Q0amirtTXQsxc7AO0r0VKxpxK3zo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vnSRl3SARRuE5krgFWt9+5uSwhYzyT4kjnmSR1SrxJkaSz5S14Wg5doi2F95DA7Nr5omjH7+C0rVj/uQ4E38xHg0KpAWjGFWP7qJBUSpiGWlOBpmEqWqZDyDbEP3DFkS4PUoA4+8NxcwzspE89F5nvdFuDdfcbgaJpV38jpGkj8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2802a73be95ed38a45a40902ad6e0dcb1ad669f8" Description="" Url=""><as:assemblyIdentity name="PDF_Glimmer.exe" version="1.0.0.0" publicKeyToken="a52eab041b935488" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MONETT\pheintz</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>t3iDX6zB/++iWOZqcfpViyd4hn0=</DigestValue></Reference></SignedInfo><SignatureValue>Qh41Y/FUdpBdNZRYCcDI/LXK20Gxdu1PjamJTyuq8l6+83oc3/K2B4T9kR1KfzLW/5GLoeIMBNBLHHgpnoedA2RfREERTra1JSUrPgw1dAAzvvdkMBJwUkxdonlaSRHAepfleeUmsWUp59iYIq+QSJb2ki90N1b7qZkyivQf6YM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vnSRl3SARRuE5krgFWt9+5uSwhYzyT4kjnmSR1SrxJkaSz5S14Wg5doi2F95DA7Nr5omjH7+C0rVj/uQ4E38xHg0KpAWjGFWP7qJBUSpiGWlOBpmEqWqZDyDbEP3DFkS4PUoA4+8NxcwzspE89F5nvdFuDdfcbgaJpV38jpGkj8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQLbYmYfm71KtLhMIkYpB0BjANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwATQBPAE4ARQBUAFQAXABwAGgAZQBpAG4AdAB6MB4XDTEzMDYyODE4MzQ1NFoXDTE0MDYyOTAwMzQ1NFowJzElMCMGA1UEAx4cAE0ATwBOAEUAVABUAFwAcABoAGUAaQBuAHQAejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvnSRl3SARRuE5krgFWt9+5uSwhYzyT4kjnmSR1SrxJkaSz5S14Wg5doi2F95DA7Nr5omjH7+C0rVj/uQ4E38xHg0KpAWjGFWP7qJBUSpiGWlOBpmEqWqZDyDbEP3DFkS4PUoA4+8NxcwzspE89F5nvdFuDdfcbgaJpV38jpGkj8CAwEAATANBgkqhkiG9w0BAQUFAAOBgQAUVhDWmVzxdwM5T8mRsuuKAw4iXp4GB4PNuzhfwfLNnEFkXVHUpgQ1dj/6oWmGPE6RzPYa05XFFpwPCfy7zdviyAyeJxzr/prPaoZdWFSSVSrSmwYV/xaGM9WfV3uEfrJ6Hng+6whdYkYR9NVAVyPAGI0WbFaj2f9XuFgr3X4hHg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
